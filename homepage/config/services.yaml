@@ -14,36 +14,6 @@
             username:  "{{HOMEPAGE_VAR_PROXMOX_USER}}"
             password:  "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
             node: xing-01
-    - Proxmox:
-        icon: proxmox.svg
-        href: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-        description: pve2
-        widget:
-            type: proxmox
-            url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-            username:  "{{HOMEPAGE_VAR_PROXMOX_USER}}"
-            password:  "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
-            node: xing-02
-    - Proxmox:
-        icon: proxmox.svg
-        href: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-        description: pve2
-        widget:
-            type: proxmox
-            url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-            username:  "{{HOMEPAGE_VAR_PROXMOX_USER}}"
-            password:  "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
-            node: xing-03
-    - Proxmox:
-        icon: proxmox.svg
-        href: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-        description: pve4
-        widget:
-            type: proxmox
-            url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-            username:  "{{HOMEPAGE_VAR_PROXMOX_USER}}"
-            password:  "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
-            node: storinator
 - Containers:
     - Rancher:
         icon: rancher.svg
