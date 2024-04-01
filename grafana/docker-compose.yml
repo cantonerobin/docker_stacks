@@ -2,7 +2,6 @@ version: "3"
 services:
   grafana:
     image: grafana/grafana:10.1.9
-    container_name: grafana_container
     deploy:
        replicas: 1
     ports:
@@ -13,7 +12,6 @@ services:
       - grafana-volume:/var/lib/grafana
   influxdb:
     image: influxdb
-    container_name: influxdb_container
     ports:
       - 8086:8086
       - 8089:8089/udp
