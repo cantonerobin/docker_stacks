@@ -12,6 +12,8 @@ services:
       - grafana-volume:/var/lib/grafana
   influxdb:
     image: influxdb
+    deploy:
+      replicas: 1
     ports:
       - 8086:8086
       - 8089:8089/udp
