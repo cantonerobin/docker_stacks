@@ -2,8 +2,9 @@ version: '3'
 services:
     adguardhome:
         image: adguard/adguardhome
+        container_name: adguard
         deploy:
-            replicas: 3
+            replicas: 1
         volumes:
             - adguardhome-work:/opt/adguardhome/work
             - adguardhome-config:/opt/adguardhome/conf

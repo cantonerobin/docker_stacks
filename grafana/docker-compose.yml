@@ -4,6 +4,8 @@ services:
     image: grafana/grafana
     container_name: grafana_container
     restart: unless-stopped
+    deploy:
+       replicas: 1
     ports:
       - 4000:3000
     networks:
