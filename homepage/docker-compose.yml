@@ -6,7 +6,6 @@ services:
       - 3000:3000
     volumes:
       - ./config/:/app/config/
-
     environment:
       PUID: $PUID 
       PGID: $PGID
