@@ -2,7 +2,7 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 # icons found here https://github.com/walkxcode/dashboard-icons
-
+version: '3.3'
 - Hypervisor:
     - Proxmox:
         icon: proxmox.svg
