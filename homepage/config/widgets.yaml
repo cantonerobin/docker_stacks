@@ -1,7 +1,7 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/service-widgets
-
+version: '3.3'
 - resources:
     cpu: true
     memory: true
